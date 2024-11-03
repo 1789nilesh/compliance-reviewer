@@ -5,7 +5,6 @@ import { encoding_for_model } from 'tiktoken';
 export class ComplianceService {
     private openai;
 
-    // Choose the model you are using (e.g., 'gpt-3.5-turbo')
     private encoding = encoding_for_model('gpt-4'); 
 
     constructor() {
@@ -66,7 +65,7 @@ export class ComplianceService {
         {
             const maxTokenVal = 8192; 
             const bufferForOutput = 1000;
-            const policyTokenIteratorVal =2000;
+            const policyTokenIteratorVal =2000;// diving policy to subpolicy to handle max token breach
 
             const webData = await complianceService.webCrawler(webUrl as string);
             const policyData = await complianceService.webCrawler(policyUrl as string);
@@ -77,9 +76,10 @@ export class ComplianceService {
             const webDataUnits = this.stringSplitter(webData,tokenAvailable);
 
             let reviewedResponse ='';
-            for( const policy of policyUnits)
+            for(const webData of webDataUnits)
             {
-                for(const webData of webDataUnits)
+                // iterates over all subpolicies to check for violations
+                for(const policy of policyUnits)
                 {
                     const subResponse =await this.contentValidatorAgainstPolicy(policy,webData);
                     reviewedResponse +=subResponse;

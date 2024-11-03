@@ -1,13 +1,17 @@
-{
+
     "response": 
-    "1. \"Powerful banking. Simplified finances.\" - This section violates the policy by referring to \"banking\". 
-    2. \"Let banking power your financial operations\" - The use of \"banking\" in this statement is not compliant with the given policy.
-    3. \"Complete any banking task in just a few clicks\" - The phrase \"banking task\" does not comply with the policy.
-    4. \"Bank with complete confidence\" - This portion violates the policy due to the use of the term \"Bank\".
-    5. \"Get up to 20x the industry standard3 in FDIC insurance through our partner banks and sweep networks.\" - Here, \"partner banks\" is unacceptable as per the policy.
-    6. \"Explore Mercury Raise I immediately felt welcomed into the founder community. I’ve connected with and exchanged advice with other founders and learned about achieving PMF from AMAs. I highly recommend it.\" - The name \"Mercury\" is used improperly in this portion in correlation with \"Raise\", which is suggestive of a banking term.
-    7. \"Business banking that transforms how you operate.\" - The use of \"business banking\" does not comply with the policy.
-    8. \"Mercury is a financial technology company, not a bank. Banking services provided by Choice Financial Group, Column N.A., and Evolve Bank & Trust®; Members FDIC.\" - The term \"Banking services\" used in this line is not compliant with the policy.
-    9. \"FDIC-insured bank accounts3\" - The term used here does not comply with the policy as it refers to \"bank accounts\".
-    10. \"Powerful business banking and finance essentials.\" - The term \"business banking\" used in this line is not compliant with the policy."
+    "1. The phrase \"Powerful banking. Simplified finances\" violates the policy of using the term 'banking'.
+    2. The term \"Apply in 10 minutes for business banking that transforms how you operate\" is not compliant with the policy as the term 'business banking' should not be used.
+    3. \"Let banking power your financial operations\" is against the policy as it includes the word 'banking'.
+    4. \"Your bank account should do more than hold your money. Now, it can.\" is non-compliant because it uses the term 'bank account'.
+    5. \"Complete any banking task in just a few clicks\" is non-compliant as it includes the term 'banking'.
+    6. \"Bank with complete confidence\" intersects with the policy since it uses the term 'bank'.
+    7. The line \"Get up to 20x the industry standard3 in FDIC insurance through our partner banks and sweep networks\" is non-compliant as it suggests users receive banking products or services directly from bank partners.
+    8. \"Your gateway to a longer runway\" is not compliant with the policy as it suggests that the brand advances funds. 
+    9. \"Accelerate your growth with Mercury Treasury4 and financing options integrated directly with your account\" is non-compliant as it suggests that the brand sets interest rates.
+    10. The term \"Business banking\" in the pricing section is non-compliant with the policy since the term 'Banking' shouldn't be used. 
+    11. \"FDIC-insured bank accounts3\" this part violates the policy of using 'bank accounts'. 
+    12. The phrase \"Deposits in checking and savings accounts are held by our banking services partners, Choice Financial Group, Column N.A., and Evolve Bank & Trust; Members FDIC\" violates the policy of implying that users receive banking services directly from bank partners.
+    13.\"You must have an account with Mercury and meet deposit minimums to become eligible for IO.\" violates the policy as it uses the phrase \"meet deposit minimums\".
+    14. \"Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column N.A., and Evolve Bank & Trust, Members FDIC. Deposit insurance covers the failure of an insured bank.\" violates the policy as it includes terms 'Banking' and 'FDIC-insured bank'."
 }

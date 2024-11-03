@@ -1,4 +1,3 @@
-// compliance.ts
 import * as express from "express";
 import { complianceController } from "../controller/ComplianceController";
 
